@@ -1,0 +1,79 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: MediumSeaGreen;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.head {
+    background-color: DodgerBlue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Styling for sections */
+.section {
+    margin-bottom: 30px;
+}
+
+.section ul {
+    list-style-type: none;
+}
+
+.section li::before {
+    content: "• ";
+    color: DodgerBlue;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+}
