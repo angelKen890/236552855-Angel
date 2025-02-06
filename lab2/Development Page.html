@@ -4,11 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Development Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://source.unsplash.com/1600x900/?development,programming') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+        header {
+            background: rgba(53, 66, 74, 0.8);
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            border: 2px solid transparent;
+            border-radius: 5px;
+            transition: background 0.3s, border 0.3s;
+        }
+        nav ul li a:hover {
+            background: #ffffff;
+            color: #35424a;
+            border: 2px solid #35424a;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background: rgba(53, 66, 74, 0.8);
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <ul class="development page link">
-        <li><a href="file:///C:/Users/M303User/Downloads/Lab%20Act%202/236552855-Angel/lab2/index.html">Back</a></li>
-      </ul>
+    <header>
+        <h1>Welcome to the Development Page</h1>
+    </header>
     
+    <nav>
+        <ul class="development page link">
+            <li><a href="file:///C:/Users/M303User /Downloads/Lab%20Act%202/236552855-Angel/lab2/index.html">Back</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Development Practices</h2>
+        <p>Explore various development practices to enhance your skills.</p>
+        <p>Learn about the latest trends in software development!</p>
+
+        <div class="card">
+            <h3>Agile Development</h3>
+            <p>Implement agile methodologies to improve project management and delivery.</p>
+        </div>
+        <div class="card">
+            <h3>Version Control</h3>
+            <p>Utilize version control systems like Git to manage code changes effectively.</p>
+        </div>
+        <div class="card">
+            <h3>Testing and QA</h3>
+            <p>Incorporate testing and quality assurance practices to ensure software reliability.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Development Page. All rights reserved.</p>
+    </footer>
 </body>
 </html>
